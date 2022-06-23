@@ -1,0 +1,66 @@
+﻿.login-logo, .register-logo {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 300
+}
+
+    .login-logo a, .register-logo a {
+        color: #fff
+    }
+
+.login-page, .register-page {
+    background: #262a33;
+}
+
+.login-box, .register-box {
+    width: 500px;
+    margin: 7% auto
+}
+
+.btn-login {
+    background-color: rgba(0,0,0,0);
+    color: #c2a264;
+    border-color: #c2a264
+}
+
+    .btn-login:hover, .btn-default:active, .btn-default.hover {
+        background-color: #c2a264;
+        border-color: #c2a264
+    }
+
+
+
+@media (max-width:768px) {
+    .login-box, .register-box {
+        width: 90%;
+        margin-top: 20px
+    }
+}
+
+.login-box-body, .register-box-body {
+    background: #2d3039;
+    padding: 30px 40px 40px 30px;
+    border-top: 0;
+    color: #666;
+    box-shadow: 0 2px 13px rgba(0,0,0,0.5);
+}
+
+    .login-box-body .form-control-feedback, .register-box-body .form-control-feedback {
+        color: #777
+    }
+
+.login-box-msg, .register-box-msg {
+    margin: 0;
+    text-align: center;
+    padding: 0 20px 20px 20px
+}
+
+.social-auth-links {
+    margin: 10px 0
+}
+
+.error-page {
+    width: 600px;
+    margin: 20px auto 0 auto
+}
