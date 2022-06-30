@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace FM.RND.Controllers
 {
+    [HandleError]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -19,7 +20,7 @@ namespace FM.RND.Controllers
         {
             ViewBag.Title = "Login Page";
 
-            return View();
+            return View("DDD");
         }
     }
 }
