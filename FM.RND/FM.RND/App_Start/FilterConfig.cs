@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using FM.RND.Filters;
+using System.Web;
 using System.Web.Mvc;
 
 namespace FM.RND
@@ -7,7 +8,7 @@ namespace FM.RND
     {
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
-            filters.Add(new HandleErrorAttribute());
+            filters.Add(new GlobalHandleErrorAttribute());
         }
     }
 }
